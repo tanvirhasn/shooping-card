@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.shopping-card{
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 20px 5px lightgray;
+    margin:auto;
+    position: relative;
+}
+.card-img img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+.card-left{
+    margin-left: 10px;
+}
+.half-width{
+    width: 50%;
+}
+.gray{
+    color: gray;
+    font-size: 20px;
+    font-size: 27px;
+}
+.red{
+    color: red;
+    font-size: 20px;
+    font-size: 27px;
+}
+.aqua{
+    color: aqua;
+    font-size: 27px;
+}
+.fa-star{
+    color: gray;
+}
+.card-left p{
+    color: gray;
+}
+.card-right{
+    position: absolute;
+    top: 270px;
+    right: -30px;
+}
+.card-right p{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    left: 55px;
+}
+.previous-amount{
+    font-size: 10px;
+    font-weight: bold;
+    color: gray;
+    position: relative;
+    left: 80px;
+    top: -30px;
+}
+.sizes{
+    position: relative;
+    left: 20px;
+    top: -10px;
+}
+.sizes i{
+    font-size: 27px;
+}
+.size1{
+    color: gray;
+    position: absolute;
+    left: 8px;
+}
+.size2{
+    color: gray;
+    position: absolute;
+    left: 37px;
+}
+.size3{
+    color: gray;
+    position: absolute;
+    left: 72px;
+}
+.font{
+    font-size: 18px;
+}
+.buy{
+    color: magenta;
+    position: relative;
+    left: 58px;
+    top: -10px;
+}
+.discount{
+    background-color: red;
+    color: white;
+    width: 50px;
+    border-radius: 25px;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+.heart-circle{
+    background-color: white;
+    width: 25px;
+    border-radius: 25px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.fa-heart{
+    color: gray;
+    position: relative;
+    left: 4px;
+    top: 2px;
+}
