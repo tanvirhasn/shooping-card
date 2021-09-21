@@ -9,6 +9,7 @@ body{
     box-shadow: 2px 5px 20px 5px lightgray;
     margin:auto;
     position: relative;
+    margin-bottom: 10px;
 }
 .card-img img{
     width: 300px;
@@ -43,7 +44,7 @@ body{
 }
 .card-right{
     position: absolute;
-    top: 270px;
+    top: 255px;
     right: -30px;
 }
 .card-right p{
@@ -52,6 +53,7 @@ body{
     font-size: 20px;
     position: relative;
     left: 55px;
+    top: 1px;
 }
 .previous-amount{
     font-size: 10px;
@@ -59,12 +61,12 @@ body{
     color: gray;
     position: relative;
     left: 80px;
-    top: -30px;
+    top: -25px;
 }
 .sizes{
     position: relative;
     left: 20px;
-    top: -10px;
+    top: -2px;
 }
 .sizes i{
     font-size: 27px;
@@ -88,10 +90,10 @@ body{
     font-size: 18px;
 }
 .buy{
-    color: magenta;
+    color: purple;
     position: relative;
     left: 58px;
-    top: -10px;
+    top: -5px;
 }
 .discount{
     background-color: red;
@@ -115,4 +117,48 @@ body{
     position: relative;
     left: 4px;
     top: 2px;
+}
+.discount-area-left{
+    box-shadow: 2px 5px 20px 5px lightgray;
+    background-color: white;
+    width: 200px;
+    height: 65px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: auto;
+    position: relative;
+    left: -50px;
+}
+#dis-title{
+    color: #b3b1b1;
+    font-weight: bold;
+    font-size: 11px;
+    position: relative;
+    left: 35px;
+    top: 10px;
+}
+#dis-code{
+    color: red;
+    position: relative;
+    left: 35px;
+    top: -10px;
+}
+.discount-area-right{
+    box-shadow: 2px 5px 20px 5px lightgray;
+    background-color: purple;
+    width: 100px;
+    height: 65px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: auto;
+    position: relative;
+    left: 100px;
+    top: -81px;
+}
+#Off{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 35px;
+    top: 10px; 
 }
